@@ -23,6 +23,11 @@ The left image shows a drawing that explains the different coordinate systems an
 
 ## Author
 - [Elia Fantini](https://www.github.com/EliaFantini)
+
+## Demo 
+![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/62103572/182819323-883918a3-a2be-4a0f-a4ce-f750057533d6.gif)
+
+
 ## Requirements
 
 The Python programming language was chosen to create the required software. The reason
@@ -96,6 +101,8 @@ python MainWindowGUI.py
 If everything went fine, APS’s should now open. 
 
 ## How to use
+**The dataset in the Data folder contains a compressed version of the original orthophoto file, which originally was 200MB. There was no GeoTIFF compressor available online so it is put there just to be visualized but it won't work in the software as it lacks the geographical informations which make a TIFF image a GeoTIFF image. If anyone would like to try the software on my dataset feel free to open an issue or contact me and I will provide a cloud link to download the whole file.**
+
 The graphic interface allows the user to set the following parameters: 
 - File path of the orthophoto in .tif format. the user may choose to manually write the path 
 to the file or select it by clicking the browse button. If the path does not exist or the file 
