@@ -4,7 +4,6 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliaFantini/APS-Aerial-Photography-Simulation-for-photogrammetric-flight-design">
   <img alt="GitHub code size" src="https://img.shields.io/github/languages/code-size/EliaFantini/APS-Aerial-Photography-Simulation-for-photogrammetric-flight-design">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/EliaFantini/APS-Aerial-Photography-Simulation-for-photogrammetric-flight-design">
-  <img alt="GitHub file count" src="https://img.shields.io/github/directory-file-count/EliaFantini/APS-Aerial-Photography-Simulation-for-photogrammetric-flight-design">
   <img alt="GitHub follow" src="https://img.shields.io/github/followers/EliaFantini?label=Follow">
   <img alt="GitHub fork" src="https://img.shields.io/github/forks/EliaFantini/APS-Aerial-Photography-Simulation-for-photogrammetric-flight-design?label=Fork">
   <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/EliaFantini/APS-Aerial-Photography-Simulation-for-photogrammetric-flight-design?abel=Watch">
@@ -14,6 +13,8 @@
 The goal of the project is to create a python program with a graphic interface, capable of
 simulating an aerial photograph by applying the collinearity equations to the data contained within a
 DEM and an orthophoto, both provided by the user as files in GeoTIFF format.
+
+The left image shows a drawing that explains the different coordinate systems and the parameters to be considered, while the right image shows a possible result of the software.
 <p align="center">
 <img width="299" alt="Immagine 2022-08-03 172951" src="https://user-images.githubusercontent.com/62103572/182648072-611d0d3e-3757-4f4c-8b2b-e8c0a7e8a8ab.png">
 <img width="471" alt="Immagine 2022-08-03 173233" src="https://user-images.githubusercontent.com/62103572/182648812-fc51a8f5-dfcd-45ee-bf6d-de627b1ef749.png">
@@ -51,7 +52,7 @@ Step 2 Create a new environment:
 - open up anaconda prompt as an administrator; 
 - write on the terminal 
 ```bash
-conda create -n myenv python=3.7 anaconda “ and press enter. 
+conda create -n myenv python=3.7 anaconda 
 ```
 <br />
 Step 3 Install libraries: 
@@ -134,6 +135,8 @@ The two following images represent the dataset I was given (left: orthophoto - r
 Once pressed start, a loading bar will tell how much time is left. The following image shows the result of a random 80x80mm camera sensor's simulated photo:
 
 ![Immagine4](https://user-images.githubusercontent.com/62103572/131254211-a8724372-3635-486e-a14b-7636eba40530.jpg)
+
+For a more detailed description of how the code works and some example with more extreme paramaters settings, such as with strongly a angled camera which will have stronger prospective distortions, read the abstract file ( the pdf is written in italian, I suggest the use of an automated translation tool).
 
 ## 🛠 Skills
 Python. Collinearity equations, basics of photogrammetry. Usage of Python GUI libraries.
