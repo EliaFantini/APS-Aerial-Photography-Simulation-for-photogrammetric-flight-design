@@ -101,7 +101,7 @@ python MainWindowGUI.py
 If everything went fine, APS’s should now open. 
 
 ## How to use
-**The dataset in the Data folder contains a compressed version of the original orthophoto file, which originally was 200MB. There was no GeoTIFF compressor available online so it is put there just to be visualized but it won't work in the software as it lacks the geographical informations which make a TIFF image a GeoTIFF image. If anyone would like to try the software on my dataset feel free to open an issue or contact me and I will provide a cloud link to download the whole file.**
+**The dataset in the Data folder contains a compressed version of the original orthophoto file, which originally was 200MB. There was no GeoTIFF compressor available online so it is put there just to be visualized but it won't work in the software as it lacks the geographical informations which make a TIFF image a GeoTIFF image. If anyone would like to try the software on my dataset, download it from this [Google Drive link](https://drive.google.com/file/d/1xvyBv2DS6jADkXIDGwzXZcVXwAiQ2FDP/view?usp=sharing) and replace the data in Data folder.**
 
 The graphic interface allows the user to set the following parameters: 
 - File path of the orthophoto in .tif format. the user may choose to manually write the path 
